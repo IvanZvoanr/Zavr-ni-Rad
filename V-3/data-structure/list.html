@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Data Structure</title>
+    <link rel="stylesheet" href="../styles/list.css">
+    <link rel="icon" href="../media/tab-icon.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h1>List</h1>
+            <ul>
+                <li><button onclick="performAppend()">Append</button></li>
+                <li><button onclick="performInsert()">Insert</button></li>
+                <li><button onclick="performRemove()">Remove</button></li>
+                <li><button onclick="performSearch()">Search</button></li>
+                <li><button onclick="performCount()">Count</button></li>
+                <li><button onclick="performUpdate()">Update</button></li> <!-- New Update button -->
+                <li><button onclick="performClear()">Clear</button></li> 
+                <li><a href="../index.html" class="home-button">&larr;</a></li>
+            </ul>
+            
+        </nav>
+
+        <main class="content">
+            <div id="visualization" class="visualization">
+                <div id="list" class="list"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="../js/list.js"></script>
+</body>
+</html>
