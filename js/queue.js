@@ -70,7 +70,7 @@ function performDequeue() {
     updateVisualization();
 }
 
-function performPeek() {
+function performFront() {
     if (!isInitialized) {
         alert("Queue is not initialized! Please initialize the queue first.");
         return;
