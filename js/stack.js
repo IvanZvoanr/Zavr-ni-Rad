@@ -66,7 +66,7 @@ function performPop() {
     }
 }
 
-function performPeek() {
+function performTop() {
     if (!isInitialized) {
         alert("Stack is not initialized! Please initialize the stack first.");
         return;
